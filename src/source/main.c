@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <string.h>
-#include "vshell.h"
+#include "../headers/vshell.h"
 
 #define TRUE (1)
 #define NORM_BUFF_LEN_BYTES (1024)

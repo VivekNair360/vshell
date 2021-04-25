@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "vshell.h"
+#include "../headers/vshell.h"
 
 
 /* Displayed when shell is waiting for user command */
