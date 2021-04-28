@@ -5,4 +5,5 @@ execs=../exes
 
 vshell: $(sources)/main.c $(sources)/prompt.c
 	$(CC) -o vshell $(sources)/main.c $(sources)/prompt.c
+	mkdir -p $(execs)
 	mv vshell $(execs)/
